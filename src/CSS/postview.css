@@ -1,13 +1,19 @@
+.grid-container {
+    margin-left: 30%;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto;
+    padding: 10px;
+  }
+
 .Post{
-    position: absolute;
-    top: 20%;
-left: 400px;
 width: 600px;
 height: 500px;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border: 1px solid #707070;
 border-radius: 10px;
 opacity: 1;
+padding: 20px;
 }
 .no{
     color: black;

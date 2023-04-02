@@ -1,5 +1,5 @@
 import React from "react";
-// import PIC from "../Pic/pic1.png";
+import PIC from "../Pic/pic1.png";
 import heart from "../Pic/heart.png";
 import share from "../Pic/share.png";
 import "../CSS/postview.css";
@@ -22,11 +22,11 @@ const PostView = () => {
 
   return (
     <>
-    <div className="Post">
+    <div className="grid-container">
             {
               user.map(curele => {
               return (
-                  <div >
+                  <div className="Post">
                     <div>
                       <div className="dot clr2">...</div>
                       <div className="first">
